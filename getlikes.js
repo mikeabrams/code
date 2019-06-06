@@ -5,7 +5,6 @@
  * Command: printlikers - stops the process and prints all the likers collected
  */
 var likerslist = [];
-var finallist = [];
 setCommand('getlikers', startLikes, 'Started collecting likers PRESS g TO GET');
 setCommand('printlikers', stopLikes, 'Stoped collecting likers and output');
 
